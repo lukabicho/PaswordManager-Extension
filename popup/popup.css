@@ -1,0 +1,67 @@
+body{
+    font-family: "Science Gothic", sans-serif;
+    margin: 20px;
+    background: linear-gradient(to right, #085078, #85D8CE);
+}
+button{
+    justify-items: center;
+    background-color: transparent;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.topRow{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.loginTable td{
+    border: white 1px solid;
+    padding: 5px;
+}
+
+.loginTable th{
+    border: white 1px solid;
+    padding: 5px;
+}
+
+#newWebsiteForm{
+    padding: 20px;
+    border-radius: 10px;
+    z-index: 1000;
+}
+
+td{
+    cursor: default;
+}
+
+
+.copy-toast {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    max-width: 300px;
+    padding: 10px 14px;
+    background: #222;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 6px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    opacity: 0;
+    transform: translateY(10px);
+    transition: opacity 0.2s ease, transform 0.2s ease;
+    z-index: 9999;
+    pointer-events: none;
+}
+
+.copy-toast.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
